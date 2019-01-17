@@ -11,7 +11,7 @@ tags: [about]
 
 * 최수환
 * 서울고등학교 입학(2018)
-* [github](https://github.com/milkclouds)
+* [GitHub](https://github.com/milkclouds)
 * [BOJ](https://www.acmicpc.net/user/milkclouds)
 <!--* [Code Forces](http://codeforces.com/profile/)-->
 
