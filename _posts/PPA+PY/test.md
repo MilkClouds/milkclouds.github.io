@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'python test'
+author: suhwan.choi
+comments: true
+date: 2019-01-17 14:22
+tags: [python, test]
+
+---
+
+[점프 투 파이썬](https://wikidocs.net/book/1)
+
+## 설명
+
+테스트 코드라고 합니다!
+
+## 코드
+
+```python
+def f():
+	r=0
+	while 1:
+		r+=1
+		yield r
+ff=f()
+for i in range(10):
+	print(next(ff))
+```
+
+### 아무말  
+Python
