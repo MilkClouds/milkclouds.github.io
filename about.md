@@ -7,9 +7,14 @@ sitemap: yes
 tags: [about]
 ---
 
-[wookje](https://wookje.dance) 욱제 블로그
+## 정보
 
-[카카오 블로그](https://github.com/kakao) 그대로 포크 떠서 사용했습니다!
+* 권욱제
+* 선린인터넷고등학교 정보통신과 졸업 (18.02)
+* 숭실대학교 컴퓨터학부 입학 (18.03)
+* [github](https://github.com/milkclouds)
+* [BOJ](https://www.acmicpc.net/user/milkclouds)
+<!--* [Code Forces](http://codeforces.com/profile/)-->
 
-Powered by [GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
-
+## Contact
+* milkclouds@naver.com
