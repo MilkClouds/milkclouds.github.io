@@ -59,8 +59,8 @@ asset_url: /assets
 #asset_url: //t1.daumcdn.net/osa/blog/assets
 google_analytics:
   ua: 'UA-91755632-1'
-facebook:
-  username: dellrikee
+#facebook:
+#  username: dellrikee
 #twitter:
 #  username: kakaodev
 github:
