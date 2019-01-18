@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '파이썬 함수 과제'
+title: '파이썬 함수 과제 to yooshini'
 author: milkclouds
 comments: true
 date: 2019-01-18 23:13
@@ -10,6 +10,9 @@ tags: [python, basic]
 
 
 # 파이썬 기초학습 함수 숙제
+
+## 출제자: MilkClouds
+## 대상: yooshini
 
 **문제**  
 재귀 함수를 사용하여, list 변수 안의 모든 원소를 순서를 거꾸로 하여 출력하세요.
