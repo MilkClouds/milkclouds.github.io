@@ -3,7 +3,7 @@ layout: post
 title: '파이썬 함수 학습'
 author: yooshini
 comments: true
-date: 2019-01-18 10:18
+date: 2019-01-18 22:18
 tags: [python, basic]
 
 ---
