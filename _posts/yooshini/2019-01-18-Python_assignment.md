@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '파이썬 함수 과제'
-author: yooshini
+author: milkclouds
 comments: true
 date: 2019-01-18 23:13
 tags: [python, basic]

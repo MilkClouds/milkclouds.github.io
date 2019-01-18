@@ -1,5 +1,5 @@
 ---
-name: suhwan.choi
-title: 최수환
+name: milkclouds
+title: MilkClouds
 image: /files/authors/MilkClouds.jpg
 ---
