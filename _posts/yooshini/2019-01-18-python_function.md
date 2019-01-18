@@ -11,6 +11,7 @@ tags: [python, basic]
 
 # 파이썬 기초학습 함수
 
+시간: 오후 8:40~11:00  (중간에 30분 정도 break)
 
 ## 요약
 파이썬이 실행되는 원리, 함수, 재귀함수에 대해 배웠다.
@@ -47,7 +48,8 @@ def factorial(n):
 
 print(factorial(5))
 ```
-
-
+  
+  
+  
 #### 강의자 MilkClouds 각주
 귀찮다.
