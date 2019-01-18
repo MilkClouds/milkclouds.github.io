@@ -1,5 +1,5 @@
 ---
 name: yooshini
 title: yooshini
-image: /files/authors/yooshini.jpg
+image: /files/authors/yooshini.png
 ---
