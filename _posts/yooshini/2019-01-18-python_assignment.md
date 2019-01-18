@@ -11,7 +11,7 @@ tags: [python, basic]
 
 # 파이썬 기초학습 함수 숙제
 
-출제자: MilkClouds
+출제자: MilkClouds  
 대상: yooshini
 
 **문제**  
