@@ -8,8 +8,6 @@ tags: [c++, disjoint-set, union-find, algorithm]
 
 ---
 
-※ 그냥 학생이 책이랑 인터넷 보고 독학하는거라 잘못된 정보가 섞여 있을 수도 있습니다. 대부분 맞지 않을까 싶긴 한데...
-
 
 ## 설명
 
@@ -31,6 +29,9 @@ Find
 
 [BOJ 2464번](https://www.acmicpc.net/problem/2463)  
 KOI 지역본선 2011 고등부 4번으로, 풀기 전엔 어려운데 풀고 나면 쉬워보이는 문제..
+
+[BOJ 1922번](https://www.acmicpc.net/problem/1922)  
+최소 스패닝 트리 문제로, 서로소 집합을 사용하는 크루스컬 알고리즘으로 풉니다.  
 
 ### 예제  
 
