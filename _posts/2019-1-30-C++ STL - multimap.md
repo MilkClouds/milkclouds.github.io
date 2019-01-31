@@ -11,7 +11,7 @@ tags: [C++, STL]
 
 ## 설명
 
-`multimap`은 연관 컨테이너(Associative container) 중 하나로, map과 비슷하지만 key값이 중복 가능하다. 레드 블랙 트리라고 한다.
+`multimap`은 연관 컨테이너(Associative container) 중 하나로, map과 비슷하지만 key값이 중복 가능하다.
 
 
 ### 멤버 함수
