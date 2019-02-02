@@ -66,3 +66,6 @@ google_analytics:
 #  username: kakaodev
 github:
   username: milkclouds
+
+disqus_url: milkclouds.disqus.com
+disqus_id: milkclouds
