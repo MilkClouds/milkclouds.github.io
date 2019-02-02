@@ -23,6 +23,7 @@ krandown:
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-feed
 
 paginate: 5
 paginate_path: '/page/:num/'
