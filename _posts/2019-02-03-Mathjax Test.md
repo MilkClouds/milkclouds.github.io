@@ -4,7 +4,6 @@ title: 'MathJax test article'
 author: milkclouds
 comments: true
 date: 2019-02-03 0:43
-tags: [test]
 use_math: true
 
 ---
