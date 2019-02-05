@@ -39,7 +39,7 @@ Segment Tree
 
 어떤 노드의 번호가 `x`일때, 자식의 번호는 `2x`, `2x+1`이 된다. (처음은 1부터 시작하도록 하면 편하다.)  
 
-!(/files/seg1.png)
+![Segment Tree 1](/files/seg1.png)
 
 
 이후는 Lazy Propagation과 마찬가지로 보충 예정
