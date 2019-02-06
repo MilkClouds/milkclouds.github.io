@@ -3,7 +3,7 @@ layout: post
 title: 'Fenwick Tree'
 author: milkclouds
 comments: true
-date: 2019-02-05 23:29
+date: 2019-02-05 23:48
 tags: [algorithm]
 
 ---
