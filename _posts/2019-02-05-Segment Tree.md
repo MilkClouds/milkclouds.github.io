@@ -8,10 +8,12 @@ tags: [algorithm]
 
 ---
 
+참고: [백준 블로그](https://www.acmicpc.net/blog/view/9)
+
 
 ### 개요
 
-참고: [백준 블로그](https://www.acmicpc.net/blog/view/9)
+값의 변경이 잦은 쿼리를 실행할 때 자주 쓰이는 게 세그먼트 트리이다. 예를 들면 아래 2가지 쿼리가 있다.
 
 1. 구간 `[left, right]`의 합
 2. i 번째 수의 값 변경
