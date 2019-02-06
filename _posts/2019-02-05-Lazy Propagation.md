@@ -25,7 +25,7 @@ Lazy Propagation은 보통 Segment Tree에 적용되는 기술로, 값의 업데
 
 ### init 함수
 
-init은 lazy 배열을 초기화 하는 것 외에는 다른 건 없다.
+init은 lazy 배열을 초기화 하는 것 외에는 보통 Segment Tree와 다른 건 없다.
 
 
 ### propagation 함수
@@ -140,3 +140,9 @@ for _ in range(M+K):
         b,c,d=it
         Seg1.update(1,0,N,b-1,c,d)
 ```
+
+
+
+##### 각주
+이해는 했는데... 응용은 아직 힘들 것 같다.
+더 공부해야지..
