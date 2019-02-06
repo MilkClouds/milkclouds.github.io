@@ -185,6 +185,12 @@ for _ in range(M+K):
         Seg1.A[b]=c
 ```
 
+### 문제  
+[BOJ 2042번: 구간 합 구하기](https://www.acmicpc.net/problem/2042)  
+[BOJ 10868번: 최솟값](https://www.acmicpc.net/problem/10868)  
+[BOJ 2357번: 최솟값과 최댓값](https://www.acmicpc.net/problem/2357)  
+
+
 ##### 각주  
 국제 표준화 기구에 따르면 밑이 2인 이진 로그는 `lb(x)`, 밑이 10인 로그는 `lg(x)`라 표기하라고 권고한다고 한다.
 이 글에 쓰인 `lg`는 모두 `lb`인 셈.
