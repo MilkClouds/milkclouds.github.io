@@ -1,4 +1,4 @@
 ---
-name: C++
+name: c++
 title: 'C++'
 ---
