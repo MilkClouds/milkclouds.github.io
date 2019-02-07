@@ -80,9 +80,9 @@ class SegTree:
         self.init(1,0,N)
 
  Seg1=SegTree(5,[1,35,2,3,16])
- ```
+```  
 
-### sum (구간 합)  
+### sum (구간 합)    
 `[start,end)` 범위의 합을 구하고자 할 때, 현재 노드가 `(node,left,right)`이면 경우는 다음의 3가지이다.  
 
 1. `[left,right)` 가 `[start,end)`에 완전히 포함되는 경우  
