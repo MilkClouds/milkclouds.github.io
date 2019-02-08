@@ -9,8 +9,7 @@ tags: [about]
 
 ## 정보
 
-* 최수환
-* 서울고등학교 입학(2018)
+* 서울고등학교
 * [GitHub](https://github.com/milkclouds)
 * [BOJ](https://www.acmicpc.net/user/milkclouds)
 <!--* [Code Forces](http://codeforces.com/profile/)-->
