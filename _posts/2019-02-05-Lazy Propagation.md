@@ -72,6 +72,9 @@ update 함수는 가장 처음 propagation을 실행하고,
 propagation 함수를 처음 실행 하는 것 외에는 보통의 Segment Tree와 같다.  
 
 
+### 문제  
+[BOJ 10999번](https://www.acmicpc.net/problem/10999)
+
 ### 예제 및 문제 풀이
 
 [BOJ 10999번](https://www.acmicpc.net/problem/10999)의 풀이이다.
