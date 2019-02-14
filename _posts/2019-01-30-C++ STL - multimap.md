@@ -38,9 +38,8 @@ tags: [c++, STL]
 
 ### 예제  
 
-[BOJ 12791번](https://www.acmicpc.net/problem/12791)  
-파이썬과 크게 다른 점은 없는데 묘하게 엄청 귀찮다. 그냥 문제가 귀찮다..  
-multimap에 insert할 자료를 만들 때는 문제에서 `예제 답안 2`를 긁어와서 정규식 `(\d+) (\w.+)` -> `m.insert({$1,"$2"});` 으로 replace를 사용했다.
+[BOJ 12791번](https://www.acmicpc.net/problem/12791)   
+multimap에 insert할 자료를 만들 때는 문제에서 `예제 답안 2`를 긁어와서 정규식 `(\d+) (\w.+)` -> `m.insert({$1,"$2"});` 을 이용했다.
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
