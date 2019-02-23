@@ -4,3 +4,23 @@ https://mygumi.tistory.com/303?category=677288
 
 2/8일(겨울방학 끝난날)
 BOJ ranking 197, 943 solve
+
+
+
+2/23 토요일
+10~15시: 수학(미적, 기벡제외 총괄시험, 2학년 예비시험)
+15시~18:50:
+BOJ 4606(The Seven Percent Solution) 단순 문자열 처리 문제
+BOJ 16739(Digits Are Not Just Characters) 한국정보화진흥원 1차 역량강화 교육(연습) 문제, 그냥 문자열 처리
+BOJ 16740(Arithmetic Progressions) 가장 긴 등차수열을 찾음. N^2로 풀이
+[BOJ 8986(전봇대)](https://www.acmicpc.net/problem/8986) KOI 2013 고등부 3번으로, 삼분 탐색을 이용하면 풀림. KOI치고 쉬운 문제
+[BOJ 2467(용액)](https://www.acmicpc.net/problem/2467) 합이 0에 근접한 두 개 수 구하기
+[BOJ 2473(세 용액)](https://www.acmicpc.net/problem/2473) KOI 2010 고등1번, 합이 0에 근접한 세 개 수 구하기. 3SUM Problem이라 함. KOI치고 쉬운문제
+[BOJ 11437(LCA)](https://www.acmicpc.net/problem/11437) Lowest Common Ancestor, LCA 문제. LCA를 처음 접하는데, 쉬운 건 아닌데 어렵지도 않고 시간이 지나면 이해가 잘 될 것 같음
+[BOJ 11438(LCA 2)](https://www.acmicpc.net/problem/11438) 입력 크기가 큰 LCA 문제. 입력외에 똑같음
+[BOJ 4592 중복을 없애자](https://www.acmicpc.net/problem/4592) 개꿀문제
+
+총합 9문제
+
+18:50~19:07:
+블로그 포스트(분할 정복)
