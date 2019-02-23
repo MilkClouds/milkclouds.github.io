@@ -24,3 +24,11 @@ BOJ 16740(Arithmetic Progressions) 가장 긴 등차수열을 찾음. N^2로 풀이
 
 18:50~19:07:
 블로그 포스트(분할 정복)
+
+19:20~ 놀자.
+
+9시부터: 단어외우자.
+to,through,for,into,by
+up down
+in out
+on off
