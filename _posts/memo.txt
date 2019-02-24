@@ -7,7 +7,7 @@ BOJ ranking 197, 943 solve
 
 
 
-2/23 토요일
+### 2/23 토요일
 10~15시: 수학(미적, 기벡제외 총괄시험, 2학년 예비시험)
 15시~18:50:
 BOJ 4606(The Seven Percent Solution) 단순 문자열 처리 문제
@@ -27,8 +27,23 @@ BOJ 16740(Arithmetic Progressions) 가장 긴 등차수열을 찾음. N^2로 풀이
 
 19:20~ 놀자.
 
-9시부터: 단어외우자.
+21시부터: 단어외우자.
 to,through,for,into,by
 up down
 in out
 on off
+
+### 2/24 일요일
+9~10시: 단어외우기
+10~12시: 영어
+13~16시: 체리
+
+16:00~20:30:
+블로그 DP 포스트
+[BOJ 7626 직사각형](https://www.acmicpc.net/problem/7626) 직사각형 넓이 문제(좌표압축, 세그먼트 트리)
+[BOJ 6549 히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549) 스택 사용 `O(N)` 복습함
+[BOJ 11873 최대 직사각형](https://www.acmicpc.net/problem/11873) 히스토그램 직사각형 복습한 이유. 응용해서 이 문제 품
+[BOJ 2412 암벽 등반](https://www.acmicpc.net/problem/2412) 풀이중에 뻘짓으로 30분쯤 날림. 그냥 한번만 정렬하고 순회하면 되는걸..
+[BOJ 2268 수들의 합](https://www.acmicpc.net/problem/2268) BIT풀이, 이제는 진짜로 5분컷
+
+20:30~21:06: 수학(지수)
