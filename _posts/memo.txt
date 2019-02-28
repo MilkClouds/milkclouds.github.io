@@ -47,3 +47,21 @@ on off
 [BOJ 2268 수들의 합](https://www.acmicpc.net/problem/2268) BIT풀이, 이제는 진짜로 5분컷
 
 20:30~21:06: 수학(지수)
+21:00~ 놀자
+
+24:00 코드포스 대회
+
+
+http://koosaga.com/162 (분수 objective function의 최대화)
+https://m.blog.naver.com/PostView.nhn?blogId=chongkong&logNo=220246979048&proxyReferer=https%3A%2F%2Fm.search.naver.com%2Fsearch.naver%3Fsm%3Dmtb_hty.top%26where%3Dm%26query%3Dheqvy%2Bpath%2Bdecomposition%26oquery%3Dheavy%2Blight%2Bdecomposition%26tqi%3DTOGKPspySCGssafXwHZsssssskR-046789%26tab%3D , https://blog.anudeep2011.com/heavy-light-decomposition/  (heavy-light composition)
+http://cubelover.tistory.com/10 (splay tree)
+http://blog.myungwoo.kr/100 (persistent segment tree)
+http://koosaga.com/145 , http://makesource.tistory.com/m/13 (centroid decomposition)
+http://jason9319.tistory.com/284 (parallel binary search)
+http://jason9319.tistory.com/289 (pow(A,B)%C logB 시간)
+http://jason9319.tistory.com/334 (L-R flow)
+http://blog.myungwoo.kr/54 (푸리에 변환)
+http://koosaga.com/4 , http://blog.myungwoo.kr/108 (convex hull trick)
+http://blog.myungwoo.kr/99 (divide & conquer optimization)
+http://blog.myungwoo.kr/98 (knuth optimization)
+https://algospot.com/wiki/list/(여러가지 쓰여있음) 
