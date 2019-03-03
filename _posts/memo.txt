@@ -65,3 +65,9 @@ http://koosaga.com/4 , http://blog.myungwoo.kr/108 (convex hull trick)
 http://blog.myungwoo.kr/99 (divide & conquer optimization)
 http://blog.myungwoo.kr/98 (knuth optimization)
 https://algospot.com/wiki/list/(여러가지 쓰여있음) 
+
+
+
+3/3일(봄방학 끝난날)
+BOJ ranking 146, 1079 solve
+봄방학 동안 main activity: MCMF, flow, graham scan+rotating calipers, 또 뭐있나?
