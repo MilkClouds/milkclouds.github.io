@@ -141,6 +141,137 @@ int main(){
 }
 ```
 
+### E. Palindromic Paths  
+
+문제 풀이는 에디토리얼을 보고 이해했다. 떠올리지는 절대 못할 것 같은데 풀이를 읽어보는건 쉽다.  
+근데 읽어보고 구현해봤는데 어.. 역시나 안 된다. 가장 간단한 케이스는 되는데 어딘가를 잘못해서 안 된다. Test #3부터 실패하는데 지금은 시간이 없으니 나중에라도 고쳐봐야겠다. Interactive 문제는 손으로 입력 넣어보면서 디버깅하기도 좀 힘들다. 채점 프로그램을 만들거나 이미 있는 걸 쓰면 좋을텐데... 어떻게 만들지? 일단 삽질한 소스코드라도 올려둬야겠다.  
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int table[51][51],N,memo[51][51],dp[51][51][51][51];
+int query(int a,int b,int c,int d){
+    if(dp[a][b][c][d])return dp[a][b][c][d]-1;
+    int t;
+    cout<<"? "<<a<<" "<<b<<" "<<c<<" "<<d<<'\n';
+    cout.flush();
+    cin>>t;
+    dp[a][b][c][d]=t+1;
+    return t;
+}
+void pprint(){
+    for(int i=1;i<=N;i++){
+        for(int j=1;j<=N;j++)
+            cout<<table[i][j]<<"";
+        cout<<'\n';
+    }
+}
+struct coord{
+    int x,y;
+    coord(int x,int y):x(x),y(y){}
+    coord():coord(1,1){}
+    coord operator + (const int amt){
+        int p=x,q=y;
+        if(p+amt>N){
+            q+=p+amt-N;p=N;
+        }
+        else p+=amt;
+        return coord(p,q);
+    }
+    coord operator - (const int amt){
+        int p=x,q=y;
+        if(q-amt<1){
+            p-=amt-q+1;q=1;
+        }
+        else q-=amt;
+        return coord(p,q);
+    }
+    bool start(){return x<1;}
+    bool end(){return y>N;}
+} pos;
+int f(coord& pos,int amt){
+    coord t=pos+amt;
+    return memo[t.x][t.y];
+}
+void insert(coord pos,int value){
+    table[pos.x][pos.y]=value;
+}
+int main(){
+    ios_base::sync_with_stdio(0);cin.tie(0);
+    cin>>N;
+    for(int i=1;i<=N;i++)for(int j=1;j<=N;j++)table[i][j]=-1;
+    table[1][1]=1; table[50][50]=0;
+    // fill even table
+    for(int i=1;i<=N;i++){
+        for(int j=((i&1)^1)+1;j+2<=N;j+=2){
+            table[i][j+2]=table[i][j]^query(i,j,i,j+2)^1;
+        }
+        if(i&1){
+            if(i+1<=N)table[i+1][2]=table[i][1]^query(i,1,i+1,2)^1;
+            if(i+2<=N)table[i+2][1]=table[i][1]^query(i,1,i+2,1)^1;
+        }
+    }
+    for(int i=1;i<=N;i++)for(int j=1;j<=N;j++)if(~table[i][j])memo[i][j]=table[i][j];
+    //memo odd table
+    for(int i=1;i<=N;i++){
+        for(int j=(i&1)+1;j+2<=N;j+=2)
+            memo[i][j+2]=memo[i][j]^query(i,j,i,j+2)^1;
+        if(i&1){
+            if(i+1<=N){
+                memo[i+1][3]=memo[i][2]^query(i,2,i+1,3)^1;
+                memo[i+1][1]=memo[i+1][3]^query(i+1,1,i+1,3)^1;
+            }
+            if(i+2<=N)
+                memo[i+2][2]=memo[i][2]^query(i,2,i+2,2)^1;
+        }
+    }
+    // find a^b^c^d=0 for road from 1,1 to N,N
+    pos.x=1;pos.y=1;
+    while(!(pos+3).end()){
+//      cout<<pos.x<<" "<<pos.y<<endl;
+        if((f(pos,0)^f(pos,1)^f(pos,2)^f(pos,3))==0){
+            if((pos.x+pos.y)&1){
+                insert(pos,f(pos,3));
+                insert(pos+2,f(pos,1));
+            }
+            else{
+                insert(pos+1,f(pos,2));
+                insert(pos+3,f(pos,0));
+            }
+            if(((pos.x+pos.y)&1)==0)pos=pos+1;
+            coord t=pos;
+            while(!(t-2).start()){
+                int p=(t-2).x, q=(t-2).y;
+                insert(t-2,f(t,0)^query(p,q,t.x,t.y)^1);
+                t=t-2;
+            }
+            t=pos;
+            while(!(t+2).end()){
+                int p=(t+2).x, q=(t+2).y;
+                insert(t+2,f(t,0)^query(t.x,t.y,p,q)^1);
+                t=t+2;
+            }
+            break;
+        }
+        pos=pos+1;
+    }
+    for(int i=2;i<=N;i+=2){
+        for(int j=(i&1)+1;j+2<=N;j+=2)
+            table[i][j+2]=table[i][j]^query(i,j,i,j+2)^1;
+    }
+    for(int i=1;i<=N;i+=2){
+        if(i+1<=N)
+            table[i][2]=table[i+1][3]^query(i,2,i+1,3)^1;
+        else
+            table[i][2]=table[i-1][1]^query(i-1,1,i,2)^1;
+        for(int j=2;j+2<=N;j+=2){
+            table[i][j+2]=table[i][j]^query(i,j,i,j+2)^1;
+        }
+    }
+    cout<<"!\n";
+    pprint();
+}
+```
 
 
-E와 F는 있다가 꼭 풀어봐야겠다.
+E,F는 꼭 제출해서 AC 받아보고 싶긴 하다. 근데 언제쯤 가능할련지.
