@@ -10,6 +10,8 @@ tags: [problem-solving]
 
 ## Codeforces Round #582 (Div.3)  
 
+[라운드 582 Div3](http://codeforces.com/contest/1213)
+
 23:35에 대회 시작  
 23:40에 A 제출, AC  
 23:47에 B 제출, AC  
