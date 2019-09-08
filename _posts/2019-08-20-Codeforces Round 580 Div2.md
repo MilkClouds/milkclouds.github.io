@@ -10,7 +10,7 @@ tags: [problem-solving]
 
 ## Codeforces Round #580 (Div.2)  
 
-[라운드 580](http://codeforces.com/contest/1206)에 참가했었다. PS를 한참 안 하다가 NYPC를 저번주에 풀고 도로 PS에 대한 관심이 생겼는데 A,B,C 세 문제밖에 풀지 못했다.  
+[Codeforces Round #580 (Div. 2)](http://codeforces.com/contest/1206)에 참가했었다. PS를 한참 안 하다가 NYPC를 저번주에 풀고 도로 PS에 대한 관심이 생겼는데 A,B,C 세 문제밖에 풀지 못했다.  
 
 [라운드 580 에디토리얼](https://codeforces.com/blog/entry/69158)을 참고로 남은 문제를 보고 있다.  
 
