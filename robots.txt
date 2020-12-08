@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: http://milkclouds.github.io/sitemap.xml
