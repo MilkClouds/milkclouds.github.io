@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'MathJax test article'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-02-03 0:43
 use_math: true

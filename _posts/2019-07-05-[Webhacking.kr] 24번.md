@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Webhacking.kr] 24번'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-07-05 00:06
 tags: [problem-solving]

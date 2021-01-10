@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Educational Codeforces Round 72 Div2'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-09-08 22:57
 tags: [problem-solving, c++]

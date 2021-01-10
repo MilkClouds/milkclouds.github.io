@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Markdown Sample'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-01-18 12:25
 tags: [memo]

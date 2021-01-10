@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Kadane Algorithm'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-02-01 0:10
 tags: [algorithm]

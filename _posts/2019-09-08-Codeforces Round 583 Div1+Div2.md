@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Codeforces Round 583 Div1+Div2'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-09-07 22:30
 tags: [problem-solving, c++]

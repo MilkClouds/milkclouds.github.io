@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[BOJ !] !'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-01-1 1:1
 tags: [boj, problem-solving]

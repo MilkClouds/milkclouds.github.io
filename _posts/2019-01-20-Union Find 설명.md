@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Union Find 설명'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-01-20 17:38
 tags: [c++, disjoint-set, union-find, algorithm]

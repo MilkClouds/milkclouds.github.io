@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Codeforces Round #580 (Div. 2)'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-08-27 00:57
 tags: [problem-solving]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Google OR-Tools 소개'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-06-03 22:39
 tags: []

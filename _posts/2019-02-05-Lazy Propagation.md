@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Lazy Propagation'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-02-05 13:38
 tags: [algorithm]

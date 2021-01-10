@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[BOJ 12152] Less Money, More Problems'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-05-18 21:15
 tags: [boj, problem-solving, c++]

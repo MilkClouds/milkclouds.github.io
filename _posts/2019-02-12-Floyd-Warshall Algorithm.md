@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '플로이드 워셜 알고리즘 (Floyd-Warshall Algorithm)'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-02-12 23:47
 tags: [algorithm]

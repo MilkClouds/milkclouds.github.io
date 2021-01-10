@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'DQN(Deep Q-Networks)'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-05-25 0:18
 tags: [python]

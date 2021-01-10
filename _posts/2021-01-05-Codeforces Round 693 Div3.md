@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Codeforces Round #693 (Div. 3)'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2021-01-05 01:47
 tags: [problem-solving]

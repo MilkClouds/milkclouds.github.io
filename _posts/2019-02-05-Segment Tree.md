@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Segment Tree'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-02-05 23:29
 tags: [algorithm]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'C++ STL - multimap'
-author: milkclouds
+author: MilkClouds
 comments: true
 date: 2019-01-30 15:27
 tags: [c++, STL]
