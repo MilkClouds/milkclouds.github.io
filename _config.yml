@@ -20,7 +20,7 @@ krandown:
   input: GFM
   highlighter: rouge
  
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
@@ -53,7 +53,7 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 keep_files: [assets, files]
 
 # iolo's custom
-author: milkclouds@naver.com
+author: milkclouds@snu.ac.kr
 image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets

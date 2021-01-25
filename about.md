@@ -16,4 +16,4 @@ tags: [about]
 * [Code Forces](http://codeforces.com/profile/)  
 
 ## Contact
-* milkclouds@naver.com
+* milkclouds@snu.ac.kr
