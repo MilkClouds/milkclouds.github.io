@@ -250,7 +250,6 @@ int main(){
 이 정도면 정올 2,3번은 되지 않을까?   
 
 ```cpp  
-
 #include <bits/stdc++.h>
 #define rep(a,b,c) for(ll a = b; a < c; a++)
 #define rep2(a,b,c) for(ll a = c - 1; a >=b; a--)
@@ -391,4 +390,4 @@ int main() {
     cin >> TC;
     while (TC--) solve();
 }
-``
+```
