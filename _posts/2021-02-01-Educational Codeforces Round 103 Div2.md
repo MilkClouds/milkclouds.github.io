@@ -247,9 +247,9 @@ int main(){
 ### F. Lanterns  
 해설 보고 겨우 풀었다. 세그트리는 어차피 뭐 한두번 구현해본 것도 아니고 구현 귀찮아서 해설 소스 가져왔다.  
 
-이 정도면 정올 2,3번은 되지 않을까?  
+이 정도면 정올 2,3번은 되지 않을까?   
 
-```cpp
+```cpp  
 #include <bits/stdc++.h>
 #define rep(a,b,c) for(ll a = b; a < c; a++)
 #define rep2(a,b,c) for(ll a = c - 1; a >=b; a--)
