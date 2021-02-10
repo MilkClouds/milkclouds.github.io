@@ -22,6 +22,8 @@ tags: [about]
 
 ##### PS 양식  
 
+###### 1. 기본
+
 ```cpp
 # pragma GCC optimize ("O3")
 # pragma GCC optimize ("Ofast")
@@ -37,11 +39,32 @@ using namespace std;
 using ll = long long;
 using tl = tuple<ll, ll, ll>;
 using pl = pair<ll, ll>;
+using pi = pair<int, int>;
+using ld = long double;
 
 
 
 int main() {
 	cin.tie(0); cout.tie(0); ios_base::sync_with_stdio(false);
-	
+
 }
+```
+
+
+
+###### 2. Fenwick Tree
+
+사용 전 트리 크기인 MAX와 배열 크기인 N 조심
+```cpp
+struct FenwickTree {
+	ll tree[MAX];
+	ll query(int i) {
+		ll ret = 0;
+		for (; i; i ^= i & -i)ret += tree[i];
+		return ret;
+	}
+	void update(int i, int x) {
+		for (; i <= N; i += i & -i)tree[i] += x;
+	}
+} tree;
 ```
