@@ -22,7 +22,21 @@ tags: [about]
 
 ##### PS 양식  
 
-###### 1. 기본
+###### Python 입출력  
+
+```python
+import sys
+input = sys.stdin.readline
+```
+
+```python
+import sys
+for line in sys.stdin:
+	pass
+```
+
+
+###### cpp 기본
 
 ```cpp
 # pragma GCC optimize ("O3")
