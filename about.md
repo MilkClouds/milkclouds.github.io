@@ -192,7 +192,6 @@ struct FenwickTree {
 
 
 
-
 ###### FFT, FFT 이용한 이산 합성곱
 
 ```cpp
