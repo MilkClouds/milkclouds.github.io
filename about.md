@@ -174,7 +174,8 @@ void erato() {
 
 ###### Fenwick Tree
 
-사용 전 트리 크기인 MAX와 배열 크기인 N 조심
+사용 전 트리 크기인 MAX와 배열 크기인 N 조심  
+
 ```cpp
 struct FenwickTree {
 	ll tree[MAX];
