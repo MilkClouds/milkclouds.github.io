@@ -13,18 +13,18 @@ tags: [problem-solving]
 [에듀 라운드 103 Div2](https://codeforces.com/contest/1476)  
 
 
-### A. K-divisible Sum 
+### A. K-divisible Sum
 k가 작다면 적당히 n보다 크도록 만들어 준 후에, `k/n`의 올림값을 구하는 문제이다.
 
 ```cpp
 #include <bits/stdc++.h>
 #define rep(a,b,c) for(ll a = b; a < c; a++)
 #define pb push_back
- 
+
 using namespace std;
 typedef long long ll;
 typedef pair<int, int> pi;
- 
+
 ll t, n, k;
 int main(){
     cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(false);
@@ -38,24 +38,24 @@ int main(){
 ```
 
 
-### B. Inflation 
+### B. Inflation
 i번째 숫자를 처리중일 때(1-indexed), S[i-1]를 최대한 조금 늘리고 a[i]는 늘리지 않아야 한다.  
 
 그 S[i-1]을 늘리는 건 a[1], a[2], ... a[i-1]중 어느 숫자를 늘려도 상관 없기 때문에 다 a[1]이 늘어나는 것으로 처리해도 된다. 늘어날 양은 오직 S[i-1]라는 숫자와 a[i]에만 의존한다. 따라서 조건을 만족하기 위해 S[i-1]가 늘어나야 하는 숫자 중 최댓값을 출력하면 된다.    
 
 솔직히 나도 설명 써놓고 뭔 소린지 좀 이해가 안 가는데 감대로 풀면 이렇다. 그리디의 일종으로 생각하면 된다.     
-  
+
 
 ```cpp
 #include <bits/stdc++.h>
 #define rep(a,b,c) for(ll a = b; a < c; a++)
 #define pb push_back
- 
+
 using namespace std;
 typedef long long ll;
 typedef pair<int, int> pi;
 const int MAX = 102;
- 
+
 ll t, n, k, p[MAX], S[MAX], add[MAX], ans;
 int main(){
     cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(false);
@@ -80,12 +80,12 @@ int main(){
 #define rep(a,b,c) for(ll a = b; a < c; a++)
 #define rep2(a,b,c) for(ll a = c - 1; a >= b; a--)
 #define pb push_back
- 
+
 using namespace std;
 typedef long long ll;
 typedef pair<int, int> pi;
 const int MAX = 1e5 + 3;
- 
+
 ll t, n, c[MAX], b[MAX], a[MAX], last, ans, tmp;
 int main(){
     cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(false);
@@ -109,22 +109,22 @@ int main(){
 ```
 
 ### D. Journey  
-BFS 문제다. DFS로 풀려다 안되는 것 같아서 BFS로 구현했다. 중간에 +2백만은 그냥 abs 함수 씌우면 되는데 뭔가 신선한 게 필요해서 그냥 음수에 +2백만했다.  
+BFS 문제다. DFS로 풀려다 안되는 것 같아서 BFS로 구현했다. 중간에 +2백만은 파이썬이랑 달리 C++는 음수에 나머지 연산이 제대로 안되서..;  
 
 ```cpp
 #include <bits/stdc++.h>
 #define rep(a,b,c) for(ll a = b; a < c; a++)
 #define rep2(a,b,c) for(ll a = c - 1; a >= b; a--)
 #define pb push_back
- 
+
 using namespace std;
 typedef long long ll;
 typedef pair<int, int> pi;
 const int MAX = 3e5 + 3;
- 
+
 string s;
 int n, ans[MAX];
- 
+
 int BFS(int b){
     int cnt = 0;
     vector<bool> vis(n + 1, 0);
@@ -145,8 +145,8 @@ int BFS(int b){
     for(auto i:save) if(vis[i] && (i-b+2000000)%2==0) ans[i] = cnt;
     return cnt;
 }
- 
- 
+
+
 void solve(){
     cin >> n >> s;
     fill(ans,ans+n+1, 0);
@@ -154,7 +154,7 @@ void solve(){
     rep(i, 0, n + 1) cout << ans[i] << " " ;
     cout << "\n";
 }
- 
+
 int main(){
     cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(false);
     int TC;
@@ -174,17 +174,17 @@ int main(){
 #include <bits/stdc++.h>
 #define rep(a,b,c) for(ll a = b; a < c; a++)
 #define pb push_back
- 
+
 using namespace std;
 typedef long long ll;
 typedef pair<ll, ll> pi;
 const int MAX = 1e5 + 3;
- 
+
 ll N, M, K, mt, deg[MAX];
 string s, tmp, S[MAX];
 map<string, ll> m;
 vector<ll> adj[MAX], ans;
- 
+
 bool op(string pat, string str){
     rep(i, 0, K){
         if(str[i] == pat[i] || pat[i] == '_') continue;
@@ -192,7 +192,7 @@ bool op(string pat, string str){
     }
     return 1;
 }
- 
+
 ll Topological_Sort(){
     queue<ll> Q;
     ll cnt = 0;
@@ -212,7 +212,7 @@ ll Topological_Sort(){
     if(cnt < N) return 0;
     return 1;
 }
- 
+
 int main(){
     cin.tie(0);cout.tie(0);ios_base::sync_with_stdio(false);
     cin >> N >> M >> K;
